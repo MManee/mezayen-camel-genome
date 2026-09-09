@@ -1,0 +1,19 @@
+# NextDenovo historical parameters recovered from retained workflow records
+#
+# This file documents only parameters that were independently recovered.
+# It is NOT a complete historical run.cfg and should not be interpreted as one.
+
+read_type = clr
+input_fofn = ./input.fofn
+genome_size = 3g
+read_cutoff = 1k
+pa_correction = 5
+
+# Retained input evidence:
+# input.fofn pointed to pacbio_1.fastq only.
+#
+# No retained evidence was recovered for additional run.cfg parameters such as:
+# job_type, task, parallel_jobs, rewrite, or deltmp.
+#
+# The exact historical NextDenovo launch command was not independently recovered.
+# Unverified parameters are intentionally not reconstructed.
